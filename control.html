@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Remote control</title>
+  <style>
+ html {
+  overflow-x: hidden;
+  background: url(http://www.desktopwallpaperhd.net/wallpapers/5/e/light-night-cartoon-car-drive-widewallpapers-wallpapers-highway-54958.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.menu_simple ul {
+  margin: 0;
+  padding: 0;
+  width: 185px;
+  list-style-type: none;
+}
+
+.menu_simple ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10.5px 11px;
+  display: block;
+  text-align:center;
+}
+
+.menu_simple ul li a:visited {
+  color: white;
+}
+
+.menu_simple ul li a:hover,
+.menu_simple ul li .current {
+  color: white;
+  background-image: url(http://hdwallpapersfit.com/wp-content/uploads/2015/04/dark-red-background.png);
+  background-size: 400px 210px;
+}
+
+li {
+background-image:url(https://wallpaperscraft.com/image/black_background_pattern_light_texture_55291_1920x1080.jpg);  
+background-size:170px 80px;
+   width: 185px;
+  border-bottom: 2px solid #400000;
+  border-top: 2px solid #400000;
+  border-left: 2px solid #400000;
+  border-right: 2px solid #400000;
+  margin-top:8px;
+}
+
+.meniu {
+  position: relative;
+  top: -1290px;
+}
+
+p {
+  font-size:130%;
+  position: relative;
+  top: -1134px;
+  left: 200px;
+  color:#8B0000;
+}
+
+.fundal {
+  background-image: url(http://img10.deviantart.net/01fa/i/2010/349/1/a/carbon_fibre_by_turbocharge0-d34wx0e.jpg);
+  width: 800px;
+  height: 650px;
+  opacity: 1;
+  position: relative;
+  top: 26px;
+  left: 230px;
+  border-bottom: 2px solid #400000;
+  border-top: 2px solid #400000;
+  border-left: 2px solid #400000;
+  border-right: 2px solid #400000;
+  text-align:center;
+  
+}
+
+p1 {
+  color: white;
+}
+
+iframe {
+  position: relative;
+  left: 80%;
+}
+
+body(
+   width: 100%;
+  height: 100%;
+)
+
+.menu_simple ul li a:active{
+  position:relative;
+  top:4px;
+}
+
+#left1{
+  
+  position:relative;
+  top:540px;
+  left:50px
+}
+
+#down1{
+  position:relative;
+  top:540px;
+  left:50px;
+}
+
+#right1{
+  position:relative;
+  top:540px;
+  left:50px
+}
+
+#up1{
+  position:relative;
+  top:440px;
+  right:138px;
+}
+
+
+
+
+.fundal2 {
+  background-image: url(http://img10.deviantart.net/01fa/i/2010/349/1/a/carbon_fibre_by_turbocharge0-d34wx0e.jpg);
+  width: 800px;
+  height: 600px;
+  opacity: 1;
+  position: relative;
+  top: 86px;
+  left: 230px;
+  border-bottom: 2px solid #400000;
+  border-top: 2px solid #400000;
+  border-left: 2px solid #400000;
+  border-right: 2px solid #400000;
+  text-align:center;
+  
+}
+
+#puppy{
+  position:absolute;
+  width:460px;
+  height:280px;
+  left:170px;
+  top:50px;
+}
+
+#cameraStart{
+  width:60px;
+  height:60px;
+  position:absolute;
+  left:200px;
+  top:350px;
+  
+}
+
+#leds{
+  width:60px;
+  height:60px;
+  position:absolute;
+  left:100px;
+  top:350px;
+}
+
+  </style>
+  
+  <script>
+
+function MouseDownLEDS() {
+
+       if(document.getElementById("leds").src == "http://www.clker.com/cliparts/4/4/1/a/1195429270821624493molumen_multicolor_power_buttons_4.svg.med.png")
+         {
+           document.getElementById("leds").src ="http://www.clker.com/cliparts/8/8/2/2/1195423990759977006molumen_multicolor_power_buttons_5.svg.med.png";
+         }
+     
+        else
+          {
+            document.getElementById("leds").src ="http://www.clker.com/cliparts/4/4/1/a/1195429270821624493molumen_multicolor_power_buttons_4.svg.med.png"
+          }
+       
+}
+    
+
+
+function MouseClickCAM() {
+        if(document.getElementById("cameraStart").src =="https://www.startupgrind.com/static/images/transparent-play-button.png")
+        {
+          document.getElementById("cameraStart").src = "https://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png";
+          
+        }
+        else
+        {
+          document.getElementById("cameraStart").src ="https://www.startupgrind.com/static/images/transparent-play-button.png";
+          
+        }
+    }
+     
+
+function MouseDownLeft() {
+
+        document.getElementById("left1").src = "https://s17.postimg.org/qdgckf79n/Butoane+[Andrei]-08.png";
+        document.getElementById("left1").style.left = "40px";
+    }
+    
+function MouseUpLeft() {
+
+        document.getElementById("left1").src = "https://s16.postimg.org/8cfmtktol/Butoane+[Andrei]-04.png";
+        document.getElementById("left1").style.left = "50px";
+    }
+
+
+
+
+
+function MouseDownSKY() {
+
+        document.getElementById("up1").src = "https://s17.postimg.org/g23zrrfkb/Butoane+[Andrei]-07.png";
+        document.getElementById("up1").style.top = "430px";
+    }
+    
+function MouseUpSKY() {
+
+        document.getElementById("up1").src = "https://s21.postimg.org/i190lsp4z/Butoane+[Andrei]-03.png";
+        document.getElementById("up1").style.top = "440px";
+    }
+
+
+
+
+ function MouseDownBOT() {
+
+        document.getElementById("down1").src = "https://s17.postimg.org/ky7mjgfpn/Butoane+[Andrei]-05.png";
+        document.getElementById("down1").style.top = "550px";
+    }
+    
+function MouseUpBOT() {
+
+        document.getElementById("down1").src = "https://s21.postimg.org/bl01vpglf/Butoane+[Andrei]-01.png";
+        document.getElementById("down1").style.top = "540px";
+    }
+
+
+
+
+function MouseDownRight() {
+
+        document.getElementById("right1").src = "https://s17.postimg.org/5e08sx5l7/Butoane+[Andrei]-06.png";
+        document.getElementById("right1").style.left = "60px";
+    }
+    
+function MouseUpRight() {
+
+        document.getElementById("right1").src = "https://s21.postimg.org/p36y7zsqr/Butoane+[Andrei]-02.png";
+        document.getElementById("right1").style.left = "50px";
+
+}
+
+window.addEventListener("keydown", moveSomething, false);
+ 
+function moveSomething(e) {
+    switch(e.keyCode) {
+        case 65:
+            document.getElementById("left1").src = "https://s17.postimg.org/qdgckf79n/Butoane+[Andrei]-08.png";
+            document.getElementById("left1").style.left = "40px";
+        return false;
+           
+        case 87:
+            document.getElementById("up1").src = "https://s17.postimg.org/g23zrrfkb/Butoane+[Andrei]-07.png";
+            document.getElementById("up1").style.top = "430px";
+            break;
+        case 83:
+            document.getElementById("down1").src = "https://s17.postimg.org/ky7mjgfpn/Butoane+[Andrei]-05.png";
+        document.getElementById("down1").style.top = "550px";
+            break;
+        case 68:
+             document.getElementById("right1").src = "https://s17.postimg.org/5e08sx5l7/Butoane+[Andrei]-06.png";
+        document.getElementById("right1").style.left = "60px";
+            break;  
+    }   
+  e.preventDefault();
+}
+
+window.addEventListener("keyup", moveSomething2, false);
+ 
+function moveSomething2(e) {
+    switch(e.keyCode) {
+        case 65:
+            document.getElementById("left1").src = "https://s16.postimg.org/8cfmtktol/Butoane+[Andrei]-04.png";
+           document.getElementById("left1").style.left = "50px";
+        return false;
+        case 87:
+            document.getElementById("up1").src = "https://s21.postimg.org/i190lsp4z/Butoane+[Andrei]-03.png";
+           document.getElementById("up1").style.top = "440px";
+            break;
+        case 83:
+             document.getElementById("down1").src = "https://s21.postimg.org/bl01vpglf/Butoane+[Andrei]-01.png";
+        document.getElementById("down1").style.top = "540px";
+            break;
+        case 68:
+            document.getElementById("right1").src = "https://s21.postimg.org/p36y7zsqr/Butoane+[Andrei]-02.png";
+        document.getElementById("right1").style.left = "50px";
+            break;  
+    }   
+  e.preventDefault();
+}
+
+
+
+  </script>
+
+</head>
+<body>
+  <iframe src="http://free.timeanddate.com/clock/i53cc4u9/n2462/tlvi/fn9/fs17/fc0ff/tc111/pc000/ftb/bac900/pa8/tt0/td1/th1/ta1/tb4" frameborder="0" width="275" height="58"></iframe>
+
+  <div class="fundal">
+
+     <img id="puppy" src="https://i.ytimg.com/vi/LXkDlHGDYqk/hqdefault.jpg">
+    
+    <img id="cameraStart" src="https://www.startupgrind.com/static/images/transparent-play-button.png"  onClick="MouseClickCAM();">
+    
+    <img id="leds" src="http://www.clker.com/cliparts/4/4/1/a/1195429270821624493molumen_multicolor_power_buttons_4.svg.med.png"
+         onClick="MouseDownLEDS();">
+    
+    
+
+    <img id="left1" src="https://s16.postimg.org/8cfmtktol/Butoane+[Andrei]-04.png" alt="left" width="90" height="90" onmousedown="MouseDownLeft()" onmouseup="MouseUpLeft()" onMouseOver=src="https://s17.postimg.org/qdgckf79n/Butoane+[Andrei]-08.png" onMouseOut=src="https://s16.postimg.org/8cfmtktol/Butoane+[Andrei]-04.png">
+
+    <img id="down1" src="https://s21.postimg.org/bl01vpglf/Butoane+[Andrei]-01.png" alt="left" width="90" height="90" onmousedown="MouseDownBOT()" onmouseup="MouseUpBOT()" onMouseOver=src="https://s17.postimg.org/ky7mjgfpn/Butoane+[Andrei]-05.png" onMouseOut=src="https://s21.postimg.org/bl01vpglf/Butoane+[Andrei]-01.png">
+
+    <img id="right1" src="https://s21.postimg.org/p36y7zsqr/Butoane+[Andrei]-02.png" alt="left" width="90" height="90" onmousedown="MouseDownRight()" onmouseup="MouseUpRight()" onMouseOver=src="https://s17.postimg.org/5e08sx5l7/Butoane+[Andrei]-06.png" onMouseOut=src="https://s21.postimg.org/p36y7zsqr/Butoane+[Andrei]-02.png">
+
+    <img id="up1" src="https://s21.postimg.org/i190lsp4z/Butoane+[Andrei]-03.png" alt="left" width="90" height="90" onmousedown="MouseDownSKY()" onmouseup="MouseUpSKY()" onMouseOver=src="https://s17.postimg.org/g23zrrfkb/Butoane+[Andrei]-07.png" onMouseOut=src="https://s21.postimg.org/i190lsp4z/Butoane+[Andrei]-03.png">
+
+  </div>
+  <div class="fundal2">
+
+  </div>
+
+  <div class="triunghi">
+    <p>&#9658;</p>
+  </div>
+
+  <div class="meniu">
+
+    <div class="menu_simple">
+      <ul>
+
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="components.html">COMPONENTS</a></li>
+        <li><a href="control.html">CONTROL</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
